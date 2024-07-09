@@ -1,0 +1,5 @@
+def qq(x, k):
+    z=x%k
+    return min(z, k-z)
+x, k = map(int, input().split())
+print(qq(x, k))
